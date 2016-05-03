@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install git htop g++ --fix-missing
 
 # Run default default install
-git clone https://github.com/king/aws
+git clone https://github.com/kingjr/aws
 sh aws/user_setup.sh
 sudo sh aws/sudo_setup.sh
 ```
