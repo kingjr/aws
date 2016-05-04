@@ -1,0 +1,4 @@
+#cloud-config
+runcmd:
+ - [sh, /home/ubuntu/aws/update.sh ]
+ - [sh, -xc, "echo 'Hello World.  The time is now $(date -R)!' | tee /home/ubuntu/ou$
