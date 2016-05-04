@@ -1,4 +1,8 @@
 #!/bin/bash
+# ensure env variables
+echo 'export aws=True' >> /home/ubuntu/.bashrc
+source /home/ubuntu/.bashrc
+
 # Update all
 conda update numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib dropbox -y
 pip install nibabel --upgrade
