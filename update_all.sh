@@ -1,6 +1,6 @@
 #!/bin/bash
 # Update all
-conda update numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib -y
+conda update numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib dropbox -y
 pip install nibabel --upgrade
 
 cd /home/ubuntu/scikit-learn; git pull origin master; cd /home/ubuntu/
