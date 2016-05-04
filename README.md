@@ -3,9 +3,10 @@
 
 user-data
 ```
-#!/bin/bash
-sh /home/ubuntu/aws/update.sh | tee /home/ubuntu/output.txt
-echo "Hello World.  The time is now $(date -R)!" | tee /home/ubuntu/output.txt
+#cloud-config
+runcmd:
+ - [sh, /home/ubuntu/aws/update.sh ]
+ - [sh, -xc, "echo 'Hello World.  The time is now $(date -R)!' | tee /home/ubuntu/ou$
 ```
 
 Security: open to the world
