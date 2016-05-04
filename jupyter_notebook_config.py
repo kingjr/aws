@@ -1,3 +1,5 @@
+import os
+os.environ['aws'] = 'True'
 c = get_config()
 
 # Kernel config
