@@ -1,10 +1,4 @@
 #!/bin/bash
-# Install Anaconda
-wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh  # check version
-bash Anaconda2-4.0.0-Linux-x86_64.sh # need manual "yes" responses
-rm Anaconda2-4.0.0-Linux-x86_64.sh
-source /home/ubuntu/.bashrc
-
 # Install depencies
 conda install numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib
 pip install nibabel
