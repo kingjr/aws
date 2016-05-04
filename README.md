@@ -1,6 +1,22 @@
 # aws
 aws setup
 
+Security: open to the world
+
+```
+custom TCP 8888 0.0.0.0/0
+SSH TCP 22 0.0.0.0/0
+HTTPS TCP 443 0.0.0.0/0
+```
+
+SSH key
+
+```
+XXX
+```
+
+EC2 Setup
+
 ```
 # Install apt-get dependencies
 sudo apt-get update
