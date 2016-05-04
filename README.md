@@ -15,6 +15,11 @@ SSH key
 XXX
 ```
 
+SSH connect
+```
+ssh -i ~/.credentials/*.pem ubuntu@$IP
+```
+
 EC2 Setup
 
 ```
