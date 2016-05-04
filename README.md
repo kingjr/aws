@@ -11,4 +11,8 @@ git clone https://github.com/kingjr/aws
 sh aws/setup_conda.sh
 sh aws/user_setup.sh
 sudo sh aws/sudo_setup.sh
+
+# kill server
+lsof nohup.out
+kill -9 PID
 ```
