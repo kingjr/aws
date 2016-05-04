@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install depencies
-conda install numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib
+conda install numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib dropbox
 pip install nibabel
 pip install git+https://github.com/scikit-learn/scikit-learn
 pip install git+https://github.com/mne-tools/mne-python
