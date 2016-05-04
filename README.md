@@ -8,6 +8,7 @@ sudo apt-get install git htop g++ --fix-missing
 
 # Run default default install
 git clone https://github.com/kingjr/aws
+sh aws/setup_conda.sh
 sh aws/user_setup.sh
 sudo sh aws/sudo_setup.sh
 ```
