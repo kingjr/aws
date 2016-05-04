@@ -4,7 +4,8 @@
 user-data
 ```
 #!/bin/bash
-sh /home/ubuntu/aws/update.sh
+sh /home/ubuntu/aws/update.sh | tee /home/ubuntu/output.txt
+echo "Hello World.  The time is now $(date -R)!" | tee /home/ubuntu/output.txt
 ```
 
 Security: open to the world
