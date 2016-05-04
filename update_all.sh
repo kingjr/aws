@@ -12,6 +12,7 @@ cd /home/ubuntu/mne-python; git pull origin master; cd /home/ubuntu/
 cd /home/ubuntu/mne-sandbox; git pull origin master; cd /home/ubuntu/
 cd /home/ubuntu/meeg-preprocessing; git pull origin master; cd /home/ubuntu/
 cd /home/ubuntu/pyRiemann; git pull origin master; cd /home/ubuntu/
+cd /home/ubuntu/h5io; git pull origin master; cd /home/ubuntu/
 
 cd /home/ubuntu/valentin-eeg; git pull origin master; cd /home/ubuntu/
 cd /home/ubuntu/decoding_unconscious_maintenance; git pull origin master; cd /home/ubuntu/
