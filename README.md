@@ -15,9 +15,20 @@ SSH key
 XXX
 ```
 
+SSH prepare
+```
+local_key=~/.credentials/*.pem
+IP=XXX.XXX.XXX.XXX
+ssh -i $local_key ubuntu@$IP 'mkdir .credentials'
+scp -i $local_key ~/.credentials/dropbox.pem ubuntu@$IP:/home/ubuntu/.credentials/
+scp -i $local_key ~/.credentials/boto.cfg ubuntu@$IP:/home/ubuntu/.credentials/
+```
+
 SSH connect
 ```
-ssh -i ~/.credentials/*.pem ubuntu@$IP
+local_key=~/.credentials/*.pem
+IP=XXX.XXX.XXX.XXX
+ssh -i $local_key ubuntu@$IP
 ```
 
 EC2 Setup
