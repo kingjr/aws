@@ -2,13 +2,13 @@
 # Install depencies
 conda install numpy setuptools numpy scipy matplotlib nose mayavi pandas h5py pil patsy pyside joblib dropbox
 pip install nibabel
-pip install git+https://github.com/scikit-learn/scikit-learn
-pip install git+https://github.com/mne-tools/mne-python
-pip install git+https://github.com/mne-tools/mne-sandbox
-pip install git+https://github.com/dengemann/meeg-preprocessing
-pip install git+https://github.com/alexandrebarachant/pyRiemann
-pip install git+https://github.com/kingjr/jr-tools
-pip install git+https://github.com/h5io/h5io
+pip install git+https://github.com/scikit-learn/scikit-learn --force-reinstall
+pip install git+https://github.com/mne-tools/mne-python --force-reinstall
+pip install git+https://github.com/mne-tools/mne-sandbox --force-reinstall
+pip install git+https://github.com/dengemann/meeg-preprocessing --force-reinstall
+pip install git+https://github.com/alexandrebarachant/pyRiemann --force-reinstall
+pip install git+https://github.com/kingjr/jr-tools --force-reinstall
+pip install git+https://github.com/h5io/h5io --force-reinstall
 
 # Add working projects
 git clone https://github.com/kingjr/valentin-eeg
