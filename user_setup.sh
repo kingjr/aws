@@ -8,6 +8,7 @@ pip install git+https://github.com/mne-tools/mne-sandbox
 pip install git+https://github.com/dengemann/meeg-preprocessing
 pip install git+https://github.com/alexandrebarachant/pyRiemann
 pip install git+https://github.com/kingjr/jr-tools
+pip install git+https://github.com/h5io/h5io
 
 # Add working projects
 git clone https://github.com/kingjr/valentin-eeg
