@@ -18,6 +18,10 @@ git clone https://github.com/kingjr/meg_perceptual_decision_symbols
 ipython profile create
 echo "import matplotlib; matplotlib.use('Agg')" >> /home/ubuntu/.ipython/profile_default/ipython_config.py
 
+# Setup .bashrc
+echo 'export aws=True' >> /home/ubuntu/.bashrc
+source /home/ubuntu/.bashrc
+
 # Setup jupyter notebook
 PASSWD=$(ipython -c "import IPython;pwd=IPython.lib.passwd();print(pwd)")
 jupyter notebook --generate-config -y
