@@ -3,4 +3,4 @@
 cd /home/ubuntu/aws
 git pull origin master
 cd /home/ubuntu
-sh /home/ubuntu/update_all.sh
+sh /home/ubuntu/aws/update_all.sh
