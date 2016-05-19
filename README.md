@@ -52,7 +52,8 @@ EC2 Setup
 ```
 # Install apt-get dependencies
 sudo apt-get update
-sudo apt-get install git htop g++ --fix-missing
+sudo apt-get install git htop g++ libhdf5-serial-dev --fix-missing
+
 
 # Run default default install
 git clone https://github.com/kingjr/aws
