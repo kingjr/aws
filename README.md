@@ -29,6 +29,11 @@ lsof nohup.out
 kill -9 PID
 ```
 
+launch server without appending 'nohup.out':
+```
+nohup jupyter notebook > /dev/null 2>&1&
+```
+
 
 ## Setup
 
