@@ -18,8 +18,8 @@ HTTPS TCP 443 0.0.0.0/0
 
 SSH connect
 ```
-local_key=~/.credentials/*.pem
-IP=XXX.XXX.XXX.XXX
+export local_key=~/.credentials/*.pem
+export IP=XXX.XXX.XXX.XXX
 ssh -i $local_key ubuntu@$IP
 ```
 
