@@ -67,3 +67,10 @@ sh aws/user_setup.sh
 sudo sh aws/sudo_setup.sh
 ```
 
+Mount EBS
+
+```
+sudo nano /etc/hosts
+# ADD "127.0.1.1 ip-10-0-0-27"
+sudo file -s /dev/xvdb
+```
