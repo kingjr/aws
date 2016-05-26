@@ -67,10 +67,14 @@ sh aws/user_setup.sh
 sudo sh aws/sudo_setup.sh
 ```
 
-Mount EBS
+Mount EBS: first time: See http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
 ```
 sudo nano /etc/hosts
 # ADD "127.0.1.1 ip-10-0-0-27"
 sudo file -s /dev/xvdb
+sudo mkfs -t ext4 /dev/xvdb
+sudo mkdir /data
+sudo mount /dev/xvdb /data/
+# chmod XXX to set permission
 ```
