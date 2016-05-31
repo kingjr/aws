@@ -57,7 +57,7 @@ EC2 Setup
 ```
 # Install apt-get dependencies
 sudo apt-get update
-sudo apt-get install git htop g++ libhdf5-serial-dev bmon --fix-missing
+sudo apt-get install git htop g++ libhdf5-serial-dev bmon tig --fix-missing
 
 
 # Run default default install
