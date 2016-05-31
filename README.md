@@ -78,3 +78,7 @@ sudo mkdir /data
 sudo mount /dev/xvdb /data/
 # chmod XXX to set permission
 ```
+
+Change delete on termination
+
+```aws ec2 modify-instance-attribute --instance-id i-a3XXXXX --block-device-mappings "[{\"DeviceName\": \"/dev/sda1\",\"Ebs\":{\"DeleteOnTermination\":false}}]"```
