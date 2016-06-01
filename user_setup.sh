@@ -29,3 +29,4 @@ jupyter notebook --generate-config -y
 cp /home/ubuntu/aws/jupyter_notebook_config.py /home/ubuntu/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.password = u'$PASSWD'" >> /home/ubuntu/.jupyter/jupyter_notebook_config.py
 echo "import os;os.environ['aws'] = 'True'" >> /home/ubuntu/.jupyter/jupyter_notebook_config.py
+echo "c.InteractiveShellApp.matplotlib = 'inline'" >> /home/ubuntu/.jupyter/jupyter_notebook_config.py
